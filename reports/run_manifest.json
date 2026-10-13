@@ -1,0 +1,54 @@
+{
+  "historical": {
+    "start_date": "2018-01-02",
+    "end_date": "2025-12-31",
+    "sessions": 2011,
+    "initial_cash": 10000.0,
+    "final_equity": 10298.404600897287,
+    "net_pnl": 298.4046008972873,
+    "total_return_pct": 2.9840460089728627,
+    "cagr_pct": 0.368477675693879,
+    "max_drawdown_pct": 22.58231489659729,
+    "max_cash_secured_reserve": 6500.0,
+    "max_indicative_margin": 2052.1971172345284,
+    "ending_shares": 100,
+    "ending_option_liability": 0.0,
+    "model_based": true
+  },
+  "synthetic_scenarios": {
+    "normal_expiration": {
+      "start_date": "2025-01-06",
+      "end_date": "2025-03-21",
+      "sessions": 55,
+      "initial_cash": 10000.0,
+      "final_equity": 10052.571740516825,
+      "net_pnl": 52.57174051682523,
+      "total_return_pct": 0.5257174051682467,
+      "cagr_pct": 2.6218253629507693,
+      "max_drawdown_pct": 0.02649999999999597,
+      "max_cash_secured_reserve": 4700.0,
+      "max_indicative_margin": 755.2217405168257,
+      "ending_shares": 0,
+      "ending_option_liability": 0.0,
+      "model_based": true
+    },
+    "crash_assignment": {
+      "start_date": "2025-01-06",
+      "end_date": "2025-03-21",
+      "sessions": 55,
+      "initial_cash": 10000.0,
+      "final_equity": 8236.843169088253,
+      "net_pnl": -1763.1568309117465,
+      "total_return_pct": -17.631568309117462,
+      "cagr_pct": -61.61060823881699,
+      "max_drawdown_pct": 17.898573423758137,
+      "max_cash_secured_reserve": 4700.0,
+      "max_indicative_margin": 2357.1428571428573,
+      "ending_shares": 0,
+      "ending_option_liability": 0.0,
+      "model_based": true
+    }
+  },
+  "input_file": "intc_daily.csv",
+  "input_sha256": "66cce9155b9eb0c4da476c35cc3a00e9ced47b616cc6c0eb44212899157e7ceb"
+}

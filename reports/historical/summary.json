@@ -1,0 +1,37 @@
+{
+  "performance": {
+    "start_date": "2018-01-02",
+    "end_date": "2025-12-31",
+    "sessions": 2011,
+    "initial_cash": 10000.0,
+    "final_equity": 10298.404600897287,
+    "net_pnl": 298.4046008972873,
+    "total_return_pct": 2.9840460089728627,
+    "cagr_pct": 0.368477675693879,
+    "max_drawdown_pct": 22.58231489659729,
+    "max_cash_secured_reserve": 6500.0,
+    "max_indicative_margin": 2052.1971172345284,
+    "ending_shares": 100,
+    "ending_option_liability": 0.0,
+    "model_based": true
+  },
+  "config": {
+    "initial_cash": 10000.0,
+    "contracts": 1,
+    "multiplier": 100,
+    "otm_pct": 0.05,
+    "tenor_days": 30,
+    "vol_window": 20,
+    "vol_floor": 0.1,
+    "vol_cap": 1.5,
+    "risk_free_rate": 0.03,
+    "dividend_yield": 0.0,
+    "option_commission": 0.65,
+    "option_slippage": 0.02,
+    "stock_slippage_bps": 5.0,
+    "stock_commission": 0.0,
+    "tree_steps": 100,
+    "assignment_hold_days": 5
+  },
+  "interpretation": "Hypothetical model-valued options; not historical option fills. Cash secured. No taxes, dividends or cash interest. Open positions, if any, remain marked."
+}

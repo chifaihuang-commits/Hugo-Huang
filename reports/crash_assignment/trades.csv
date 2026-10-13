@@ -1,0 +1,3 @@
+trade_id,kind,entry_date,exit_date,strike,contracts,shares,entry_price,exit_price,gross_premium,fees,realized_pnl,outcome,holding_days,target_expiry,expiry_date
+1,put,2025-01-07,2025-02-06,47.00000000,1,100,0.53221741,17.78571429,53.22174052,0.65000000,52.57174052,assigned,30,2025-02-06,2025-02-06
+1,stock,2025-02-06,2025-02-13,47.00000000,0,100,47.00000000,28.84271429,0.00000000,0.00000000,-1815.72857143,stock_sold,7,,

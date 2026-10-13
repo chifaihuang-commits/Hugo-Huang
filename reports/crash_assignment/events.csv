@@ -1,0 +1,4 @@
+Date,event,trade_id,spot,strike,contracts,shares,price,cash_flow,fees,note
+2025-01-07,put_sold,1,50.00000000,47.00000000,1,100,0.53221741,52.57174052,0.65000000,Model sale credit less commission; premium is not immediate profit.
+2025-02-06,assigned,1,29.21428571,47.00000000,1,100,47.00000000,-4700.00000000,0.00000000,Physical assignment: strike cash paid; shares received.
+2025-02-13,stock_sold,1,28.85714286,47.00000000,0,100,28.84271429,2884.27142857,0.00000000,Sold after 5 subsequent supplied sessions.

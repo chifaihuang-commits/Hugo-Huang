@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intc-short-put-backtest"
+version = "1.0.0"
+description = "Reproducible model-based INTC short-put research with physical assignment and daily accounting"
+requires-python = ">=3.11"
+dependencies = ["pandas>=2.2,<4", "numpy>=2,<3", "matplotlib>=3.9,<4", "requests>=2.32,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+intc-put = "intc_put.__main__:main"
+
+[tool.setuptools]
+packages = ["intc_put"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
